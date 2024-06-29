@@ -24,7 +24,7 @@ const WithoutQuery = () => {
     }, []);
 
     if (loading) {
-        return <h1 className='text-3xl text-center my-8 font-bold text-gray-400'>Loading...</h1>;
+        return <h1 className='text-3xl text-center my-8 font-bold text-gray-400'>Loading... Activity indicator </h1>;
     }
 
     if (error) {
