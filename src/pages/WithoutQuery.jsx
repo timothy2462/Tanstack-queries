@@ -33,7 +33,7 @@ const WithoutQuery = () => {
 
     return (
         <div className='m-4 max-w-[600px] w-4/5 mx-auto'>
-            <h1 className='text-3xl text-center my-8 font-bold text-gray-400'>Posts Data</h1>
+            <h1 className='text-3xl text-center my-8 font-bold text-gray-400'>Posts Data fetched without query`</h1>
             {data && data.map(post => {
                 return (
                     <div key={post.id} className='p-4 rounded-lg border border-gray-200 my-6 cursor-pointer hover:bg-gray-900'>
